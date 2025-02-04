@@ -1,4 +1,6 @@
 export interface BikeNetworkData {
+
+    location: string;
     networks: {
         id: string;
         name: string;
@@ -9,6 +11,6 @@ export interface BikeNetworkData {
             country: string;
         };
         href: string;
-        company?: string[]; // Made optional if it's sometimes missing
+        company: string[]; // Made optional if it's sometimes missing
     }[];
 }
