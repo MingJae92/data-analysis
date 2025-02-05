@@ -34,8 +34,8 @@ function Datadisplay() {
 
   return (
     <div>
-      <h1>Data Display</h1>
-      <Paginationbutton networks={networks} location={""} /> {/* Passing networks array */}
+      <h1>Data Display Comp</h1>
+      <Paginationbutton networks={networks} location={""} /> 
     </div>
   );
 }
